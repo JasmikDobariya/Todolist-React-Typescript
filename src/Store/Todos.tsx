@@ -7,7 +7,7 @@ export type TodosProviderProps = {
 export type Todo = {
     id: string;
     task: string;
-    completed: boolean
+    completed: boolean;
     createdAt: Date;
 }
 
